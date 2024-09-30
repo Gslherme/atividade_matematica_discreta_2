@@ -9,7 +9,7 @@ void perm_s(void) {
 
     system("cls");
     wprintf(L"Você selecionou: Permutação Simples. Digite o valor de \"n\": ");
-    scanf("%d", &n);
+    scanf(" %i", &n);
 
     result = fat(n);
 
