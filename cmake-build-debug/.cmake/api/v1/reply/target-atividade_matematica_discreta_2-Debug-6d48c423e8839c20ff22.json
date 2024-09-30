@@ -107,7 +107,9 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7
 			]
 		},
 		{
@@ -149,6 +151,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "perm_repeticao.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "arranjo_repeticao.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "comb_repeticao.h",
 			"sourceGroupIndex" : 0
 		}
 	],

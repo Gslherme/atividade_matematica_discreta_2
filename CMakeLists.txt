@@ -11,4 +11,6 @@ add_executable(atividade_matematica_discreta_2
         arranjo_simples.h
         fat.h
         comb_simples.h
-        perm_repeticao.h)
+        perm_repeticao.h
+        arranjo_repeticao.h
+        comb_repeticao.h)

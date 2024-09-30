@@ -1,6 +1,8 @@
 #ifndef perm_repeticao_h
 #define perm_repeticao_h
 
+#include "fat.h"
+
 void perm_r(void) {
     setlocale(LC_ALL, "Portuguese");
     int n, n_rep, nx, a = 1, result;

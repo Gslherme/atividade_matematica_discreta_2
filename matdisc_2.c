@@ -6,6 +6,8 @@
 #include "arranjo_simples.h"
 #include "comb_simples.h"
 #include "perm_repeticao.h"
+#include "arranjo_repeticao.h"
+#include "comb_repeticao.h"
 
 int main(void){
     setlocale(LC_ALL, "Portuguese");
@@ -14,7 +16,7 @@ int main(void){
 
     do {
         system("cls");
-        printf("Calculadora de Analise Combinatória - Gslherme:\n\n");
+        wprintf(L"Calculadora de Analise Combinatória - Gslherme.\n\n");
         printf("1. P(n)\n2. A(n,k)\n3. C(n,k)\n4. PRn\n5. AR(n,k)\n6. CR(n,k)\n7. Sair\n\n");
         wprintf(L"Digite o número que corresponda a operação que você deseja fazer: ");
         scanf(" %i", &opcao);
@@ -33,11 +35,13 @@ int main(void){
                 perm_r();
                 break;
             case 5:
+                arranjo_r();
                 break;
             case 6:
+                comb_r();
                 break;
             case 7:
-                parar = 1;
+                parar = 0;
                 continue;
 
         }
